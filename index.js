@@ -70,7 +70,6 @@ module.exports = {
             qs: _.merge({access_token: accessToken}, inputs),
             json: true
         }, function (error, response, body) {
-            console.log(body);
 
             this.processResult(error, response, body);
         }.bind(this));
