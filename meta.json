@@ -4,23 +4,46 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "user_id",
+            "title":"User ID"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "username",
+            "title":"Username"
+        },
+        {
+            "id": "first_name",
+            "title":"First Name"
+        },
+        {
+            "id": "last_name",
+            "title":"Last Name"
+        },
+        {
+            "id": "display_name",
+            "title":"Display Name"
+        },
+        {
+            "id": "about",
+            "title":"About"
+        },
+        {
+            "id": "email",
+            "title":"Email"
+        },
+        {
+            "id": "phone",
+            "title":"Phone"
         }
-      */
     ],
+    "icon": "dex-venmo",
     "title": "Venmo Get User Friends" /* Required.A display name for the module */
 }
