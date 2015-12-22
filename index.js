@@ -6,7 +6,9 @@ var request = require('request').defaults({
 });
 
 var pickInputs = {
-        'user_id': 'userId'
+        'user_id': 'userId',
+        'before': 'before',
+        'limit': 'limit'
     },
     pickOutputs = {
         '-': {

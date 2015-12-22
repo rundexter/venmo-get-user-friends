@@ -7,6 +7,14 @@
         {
             "id": "user_id",
             "title":"User ID"
+        },
+        {
+            "id": "before",
+            "title":"Before ID"
+        },
+        {
+            "id": "limit",
+            "title":"Return Limit"
         }
     ],
     //Required. Outputs the module emits.
